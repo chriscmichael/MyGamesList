@@ -21,8 +21,8 @@ We are targeting gamers of all walks of life who want to build lists of games: g
 
 - New users can create an account with username and password. No email or further personal information is required.
 - Users can view a list of all games or a list of all users without being signed in. This will allow them to better understand how the site works.
-- Once they have created an account, users can begin to build their own lists, first by creating a list, and then by browsing or searching for games and adding them to their desired list(s).
-- Registered users can view other user's accounts and lists.
+- Once they have created an account, users can begin to build their own lists, first by creating a list, and then by browing or searching for games and adding them to their desired list(s)
+- Registered users can view other user's accounts and lists
 
 ## Project Initialization
 
