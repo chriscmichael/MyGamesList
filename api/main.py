@@ -8,7 +8,8 @@ import os
 app = FastAPI()
 
 origins = [
-    "https://localhost:3000",
+    os.environ.get("REACT_APP_API_HOST", None),
+    os.environ.get("PUBLIC_URL", None),
     os.environ.get("CORS_HOST", None),
 ]
 

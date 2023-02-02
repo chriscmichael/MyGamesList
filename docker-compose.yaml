@@ -17,6 +17,7 @@ services:
       context: ./api
       dockerfile: Dockerfile.dev
     environment:
+      CORS_HOST: http://localhost:3000
       DATABASE_URL: mongodb://root:password@mongo
       SIGNING_KEY: bsb4q8yiq353lyt7cgcp
       DATABASE_NAME: mygamelist
