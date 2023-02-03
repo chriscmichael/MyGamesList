@@ -31,7 +31,7 @@ To fully enjoy this application on your local machine, please make sure to follo
 1. Clone the repository down to your local machine
 2. CD into the new project directory
 3. Run `docker volume create mongo-data`
-4. Follow the directions in [integrations](docs/integrations.md) to cache the game database.
 4. Run `docker compose build`
 5. Run `docker compose up`
-6. Open a browser and navigate to http://localhost:3000/
+6. Follow the directions in [integrations](docs/integrations.md) to cache the game database.
+7. Open a browser and navigate to http://localhost:3000/
